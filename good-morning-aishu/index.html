@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Morning, Aishu</title>
+<style>
+:root{--ink:#23313d;--gold:#f6bd60;--peach:#f7ede2;--cream:#fffaf3;--sky:#89c2d9}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{font-family:Georgia,serif;background:linear-gradient(135deg,#fffaf3 0%,#f7ede2 48%,#dff2f6 100%);color:var(--ink);overflow:hidden}
+.poster{min-height:100%;position:relative;display:grid;place-items:center;padding:40px}
+.glow{position:absolute;width:320px;height:320px;border-radius:50%;background:#ffd16655;filter:blur(6px);top:-90px;right:-70px}
+.sun{position:absolute;width:140px;height:140px;border-radius:50%;background:linear-gradient(145deg,#ffd166,#f6bd60);top:9%;right:14%;box-shadow:0 0 70px #ffd16666}
+.cloud{position:absolute;background:#fff9;border-radius:999px;filter:blur(.2px)}
+.cloud.one{width:180px;height:54px;left:8%;top:18%}.cloud.two{width:230px;height:62px;right:7%;top:31%}
+.card{position:relative;width:min(880px,92vw);padding:76px 68px 64px;text-align:center;border:1px solid #ffffffaa;background:#ffffff66;backdrop-filter:blur(14px);border-radius:34px;box-shadow:0 30px 90px #506b7a1f}
+.kicker{font:600 13px/1.2 Arial,sans-serif;letter-spacing:.28em;text-transform:uppercase;opacity:.62;margin-bottom:24px}
+h1{font-size:clamp(52px,9vw,104px);line-height:.95;margin:0;letter-spacing:-.045em}
+h1 span{display:block;color:#b66a3c}
+.message{font-size:clamp(19px,2.4vw,27px);line-height:1.5;max-width:650px;margin:30px auto 0;color:#4b5b66}
+.ribbon{display:inline-block;margin-top:34px;padding:11px 18px;border-radius:999px;background:#23313d;color:#fff;font:600 12px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.sparkles{position:absolute;inset:0;pointer-events:none}
+.sparkles i{position:absolute;width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 18px #fff}
+.s1{top:22%;left:23%}.s2{top:58%;left:11%;width:5px!important;height:5px!important}.s3{bottom:19%;right:18%;}.s4{top:13%;right:31%;width:4px!important;height:4px!important}
+.footer{position:absolute;bottom:24px;left:0;right:0;text-align:center;font:12px Arial,sans-serif;opacity:.5;letter-spacing:.08em}
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="glow"></div><div class="sun"></div>
+  <div class="cloud one"></div><div class="cloud two"></div>
+  <div class="sparkles"><i class="s1"></i><i class="s2"></i><i class="s3"></i><i class="s4"></i></div>
+  <main class="card">
+    <div class="kicker">A little morning poster</div>
+    <h1>Good morning,<span>Aishu.</span></h1>
+    <p class="message">May your coffee be strong, your mood be light, and today give you at least one very good reason to smile.</p>
+    <div class="ribbon">Have a beautiful day</div>
+  </main>
+  <div class="footer">made with a little sunshine</div>
+</div>
+</body>
+</html>
