@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163a35">
+  <meta name="description" content="A little book of memories, gratitude and good wishes for Tanu's next chapter.">
+  <title>For Tanu — A Little Book of Memories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="For Tanu, home"><span class="brand-seal">t.</span><span>made with care, by the team</span></a>
+    <nav aria-label="Main navigation"><a href="#letters">The letters</a><a href="#wishes">One last thing</a></nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A little something for your next chapter</p>
+        <h1>Dear <em>Tanu,</em><br><span>you made this</span><br>team brighter.</h1>
+        <p class="hero-text">Some people leave a role. Some leave a little bit of themselves in every person they work with. This is for the second kind.</p>
+        <div class="hero-actions">
+          <button class="button button-primary" id="openLetters" type="button">Open your notebook <span>↗</span></button>
+          <a class="button button-outline" href="#letters">See every note <span>↓</span></a>
+        </div>
+        <p class="hero-footnote"><span class="tiny-heart">♡</span> 11 notes. One very loved teammate.</p>
+      </div>
+      <div class="hero-visual" aria-label="Illustrated keepsake notebook for Tanu">
+        <div class="sun-disc"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="doodle doodle-star star-one">✳</span><span class="doodle doodle-star star-two">✦</span><span class="doodle doodle-heart">♡</span>
+        <span class="doodle hand-note">the good things<br>stay with us</span>
+        <div class="book-shadow"></div>
+        <div class="book-cover">
+          <div class="book-stitch"></div>
+          <div class="cover-top">A LITTLE BOOK OF MEMORIES</div>
+          <div class="cover-flower">✿</div>
+          <div class="cover-title">For<br><em>Tanu</em></div>
+          <div class="cover-rule"></div>
+          <div class="cover-bottom">11 notes from the people<br>who are cheering you on</div>
+          <div class="cover-monogram">♡</div>
+        </div>
+        <div class="pressed-flower flower-left"><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="pressed-flower flower-right"><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="visual-caption">turn the page, feel the love</div>
+      </div>
+      <a class="scroll-cue" href="#intro"><span></span> SCROLL TO FEEL THE LOVE</a>
+    </section>
+
+    <section class="intro-band" id="intro">
+      <p class="intro-kicker">Before you go...</p>
+      <p class="intro-quote">“The best part of working together isn't only what we achieve.<br><em>It's the people who make the journey matter.</em>”</p>
+      <div class="intro-flourish">✳</div>
+    </section>
+
+    <section class="letters-section" id="letters">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> Little notes, big feelings</p><h2>A few words <em>from us.</em></h2></div>
+        <div class="note-count"><strong id="noteCount">11</strong><span>notes<br>inside</span></div>
+      </div>
+      <div class="letters-toolbar">
+        <p class="section-description">Every note has its own voice. Open one, take your time, and know that each word was written just for you.</p>
+        <div class="tools">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchNotes" type="search" placeholder="Find a teammate" aria-label="Search notes by teammate"></label>
+          <button class="button button-soft" id="surpriseMe" type="button">Surprise me ✦</button>
+        </div>
+      </div>
+      <div class="letter-grid" id="letterGrid" aria-live="polite"><div class="loading-card">Gathering the good words…</div></div>
+      <p class="empty-state" id="emptyState" hidden>No note found under that name. Try another search.</p>
+      <div class="team-note"><span class="team-note-flower">✿</span><div><strong>Different words. One shared feeling.</strong><p>Thank you for making work feel a little more human, Tanu.</p></div><span class="team-note-heart">♡</span></div>
+    </section>
+
+    <section class="keepsake-band">
+      <div class="keepsake-inner">
+        <div><p class="eyebrow eyebrow-light"><span></span> Keep this little piece of us</p><h2>A notebook to<br><em>come back to.</em></h2><p>Whenever you need a reminder of the people who are rooting for you, these words will be right here.</p></div>
+        <span class="keepsake-tag">11 handwritten-in-spirit notes · saved here for you ♡</span>
+        <span class="keepsake-doodle">✳</span>
+      </div>
+    </section>
+
+    <section class="wish-section" id="wishes">
+      <div class="wish-frame">
+        <span class="wish-star star-left">✳</span><span class="wish-star star-right">✧</span>
+        <p class="eyebrow"><span></span> One last thing</p>
+        <h2>Go make the<br><em>next chapter</em><br>wonderful.</h2>
+        <p>We are cheering for you, always.<br>Thank you for being part of our story.</p>
+        <button class="wish-button" id="makeAWish" type="button">A little send-off, just for you <span>♡</span></button>
+        <p class="wish-reveal" id="wishReveal" hidden>New place. New people. Same wonderful Tanu. Go shine. ✨</p>
+        <div class="signature">With all our best,<br><strong>your team ♡</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>Made with care, just for Tanu.</span><span>Good people. Good memories. New beginnings. <b>✳</b></span></footer>
+
+  <dialog id="letterDialog" class="letter-dialog" aria-labelledby="dialogName">
+    <button class="dialog-close" id="closeDialog" type="button" aria-label="Close letter">×</button>
+    <div class="dialog-stamp">A LITTLE NOTE FOR YOU</div>
+    <p class="dialog-label">A message from</p>
+    <h3 id="dialogName">Your teammate</h3>
+    <div class="dialog-divider">✳</div>
+    <div id="dialogMessage" class="dialog-message"></div>
+    <p id="dialogSignoff" class="dialog-signoff"></p>
+    <div class="dialog-navigation"><button id="prevLetter" type="button" aria-label="Previous note">← Previous</button><span id="dialogPosition">01 / 11</span><button id="nextLetter" type="button" aria-label="Next note">Next →</button></div>
+  </dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>
